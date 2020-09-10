@@ -24,7 +24,8 @@ A Burger themed repository dedicated towards exploring all the different types o
 🍔 The Five Star Burger (Incorrect use of the "&" (address of) and "*" (dereferencing) operators) <br />
 🥪 The Scan Sandwhich (Improper formatting specifiers in printf and scanf statements) <br />
 🥓 The Big Stack (Stack Based Buffer overflow) <br />
-## Creds
+## Credz
 [Ascii Art](http://www.qqpr.com/ascii-art-food-2.html) <br />
-[Geeks For Geeks](https://www.geeksforgeeks.org/) 
+[Geeks For Geeks](https://www.geeksforgeeks.org/)
+[Stack Overflow](https://stackoverflow.com/)
 
