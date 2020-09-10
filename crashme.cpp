@@ -2,14 +2,14 @@
 #include <array>
 #include <string>
 #include <list>
-#include "Burger.h"
-#include "Date.h"
-#include "Scan.h"
-#include "Soda.h"
-#include "Shake.h"
-#include "Stack.h"
-#include "Sushi.h"
-#include "Vegan.h"
+#include "Source/Burger.h"
+#include "Source/Date.h"
+#include "Source/Scan.h"
+#include "Source/Soda.h"
+#include "Source/Shake.h"
+#include "Source/Stack.h"
+#include "Source/Sushi.h"
+#include "Source/Vegan.h"
 using namespace std;
 
 //Function Definitions
