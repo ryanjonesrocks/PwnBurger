@@ -4,13 +4,13 @@
 #include <list>
 #include "Source/Burger.h"
 #include "Source/Date.h"
+#include "Source/IntOverflow.h"
 #include "Source/Scan.h"
-#include "Source/Soda.h"
+#include "Source/Soda.h"  
 #include "Source/Shake.h"
 #include "Source/Stack.h"
 #include "Source/Sushi.h"
 #include "Source/Vegan.h"
-using namespace std;
 
 //Function Definitions
 void Print(std::list<std::string> const &list);
@@ -27,6 +27,7 @@ int main(int argc, char const *argv[])
    Sushi MySushi;
    Vegan MyVegan;
    Stack MyStack;
+   IntOverflow MyIntOverflow;
 
    int input = 0;
     while(true) {
@@ -47,7 +48,9 @@ int main(int argc, char const *argv[])
          std::cout << "6. The Scan Sandwhich" << std::endl;
          // Stack overflow
          std::cout << "7. The Big Stack" << std::endl;
-         std::cout << "8. Quit" << std::endl;
+         // Int Overflow
+         std::cout << "8. Mary's Int Overflow" << std::endl;
+         std::cout << "9. Quit" << std::endl;
          std::cout << "=========================" << std::endl;
          std::cin >> input;
          switch(input)
@@ -72,6 +75,9 @@ int main(int argc, char const *argv[])
                break;
             case 7:
                MyStack.VulnFunction();
+               break;
+            case 8:
+               MyIntOverflow.VulnFunction();
                break;
             default:
                std::cout << "Invalid Choice " << input << std::endl;

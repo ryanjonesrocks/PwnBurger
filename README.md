@@ -24,7 +24,13 @@ A Burger themed repository dedicated towards exploring all the different types o
 🍔 The Five Star Burger (Incorrect use of the "&" (address of) and "*" (dereferencing) operators) <br />
 🥪 The Scan Sandwhich (Improper formatting specifiers in printf and scanf statements) <br />
 🥓 The Big Stack (Stack Based Buffer overflow) <br />
+
 ## Creds
 [Ascii Art](http://www.qqpr.com/ascii-art-food-2.html) <br />
 [Geeks For Geeks](https://www.geeksforgeeks.org/) 
 
+## FAQ
+1. Why not just use `using namespace std` so you do not have to call `std::` every time
+Typically this introduces potential issues as namespace std bring all definitions into current scope. 
+If another library has a similar named function like `string` or `cin` then the compiler will
+not know which namespace to use.
