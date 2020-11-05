@@ -25,12 +25,11 @@ A Burger themed repository dedicated towards exploring all the different types o
 🥪 The Scan Sandwhich (Improper formatting specifiers in printf and scanf statements) <br />
 🥓 The Big Stack (Stack Based Buffer overflow) <br />
 🍹 Mary's Overflow (Integer Overflow) <br />
-<<<<<<< HEAD
 
 ## Creds
-=======
+
 ## Credz
->>>>>>> 614b5c10589ae2abef8f7ded60bc772adec38efa
+
 [Ascii Art](http://www.qqpr.com/ascii-art-food-2.html) <br />
 [Geeks For Geeks](https://www.geeksforgeeks.org/) <br />
 [Stack Overflow](https://stackoverflow.com/)
